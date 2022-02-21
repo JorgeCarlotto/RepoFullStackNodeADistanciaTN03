@@ -1,0 +1,18 @@
+[
+ {
+  "titulo": "Comprar asado",
+  "estado": "completado"
+ },
+ {
+  "titulo": "Comprar Fernet",
+  "estado": "pendiente"
+ },
+ {
+  "titulo": "Comprar Carbon",
+  "estado": "pendiente"
+ },
+ {
+  "titulo": "Comprar Verduras",
+  "estado": "pendiente"
+ }
+]
