@@ -8,7 +8,7 @@ let funcionesDeTareas = {
         let stringTareas = fs.readFileSync(this.archivo ,'utf-8');
         return JSON.parse(stringTareas);
     },
-
+    
 
     todasLasTareas: function(){
 
@@ -19,7 +19,7 @@ let funcionesDeTareas = {
         console.log('----------------');
 
         for (let i=0; i < tareas.length ; i++){
-            console.log(i+1 +'. ' + tareas[i].titulo + ' - ' + tareas[i].estado);
+            console.log(i+1 +'. ' + tareas[i].titulo + ' - ' + tareas[i].estado); 
         }
 
     },
@@ -40,7 +40,15 @@ let funcionesDeTareas = {
         }
     },
 
-
+    
 };
+ 
+// console.log(funcionesDeTareas.leerJSON())
+
+
 
 module.exports = funcionesDeTareas;
+
+
+
+

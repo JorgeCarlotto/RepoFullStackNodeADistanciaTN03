@@ -23,4 +23,4 @@ switch (accion) {
      
 }
 
-console.log(accion)
+
